@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xsm: {"max":"680px"}
+      },
+
+      fontFamily: {
+        Montserrat: ["motserrat"],
+        poppins: ["poppins"]
+      },
+    
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
