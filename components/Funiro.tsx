@@ -5,13 +5,13 @@ function Funiro() {
   return (
     <div className="w-screen h-auto">
         <div  className="h-[600px] w-[1200px] flex mt-10 items-center justify-center">
-            <div className="w-[422px] h-[250px] flex flex-col gap-4 ml-12">
+            <div className="w-[422px] h-[250px] flex flex-col gap-4 ml-12 xsm:ml-0">
                 <p className="w-[360px] text-[40px] font-bold text-[#3A3A3A]">50+ Beautiful rooms inspiration</p>
                 <p className="w-[360px] font-medium text-[#616161]">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
                 <button className='w-[176px] h-12 text-white font-semibold  bg-[#B88E2F]'>Explore More</button>
             </div>
             <Image src={"/images/room1.svg"} alt='room' width={404} height={582} />
-            <div className="flex flex-col gap-14 ml-6">
+            <div className="flex flex-col gap-14 ml-6 xsm:hidden relative">
                 <Image src={"/images/room2.svg"} alt='room' width={372} height={486} />
                 <Image src={"/images/Indicator.svg"} alt='imdicator' width={120} height={27} />
             </div> 
