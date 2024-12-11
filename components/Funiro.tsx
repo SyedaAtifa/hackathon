@@ -4,8 +4,8 @@ import Image from 'next/image'
 function Funiro() {
   return (
     <div className="w-screen h-auto">
-        <div  className="h-auto w-[1200px] flex mt-10 items-center justify-center xsm:justify-start xsm:flex-col xsm:gap-3 xsm:items-start">
-            <div className="w-[422px] h-[250px] flex flex-col gap-4 ml-12">
+        <div  className="h-auto w-[1200px] flex mt-10 items-center justify-center xsm:flex-col xsm:gap-3">
+            <div className="w-[422px] h-[250px] flex flex-col gap-4 ml-12  xsm:w-screen xsm:ml-0">
                 <p className="w-[360px] text-[40px] font-bold text-[#3A3A3A]">50+ Beautiful rooms inspiration</p>
                 <p className="w-[360px] font-medium text-[#616161]">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
                 <button className='w-[176px] h-12 text-white font-semibold  bg-[#B88E2F]'>Explore More</button>
