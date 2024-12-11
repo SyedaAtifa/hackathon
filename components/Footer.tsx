@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 function Footer() {
   return (
-    <div className="w-screen h-[505px] border-t font-poppins">
-        <footer className="w-[1240px] h-[419px] flex flex-col items-center justify-center">
+    <div className="w-screen h-[505px] border-t font-poppins xsm:h-[1000px]">
+        <footer className="w-[1240px] h-[419px] flex flex-col items-center justify-center xsm:w-screen">
             <div className="w-full h-[312px] flex gap-20 ml-20 xsm:flex-col">
                 <div className="w-[285px] h-[100px]">
                     <h2 className="text-2xl font-bold">Funiro.</h2>
@@ -12,7 +12,7 @@ function Footer() {
                     FL 33134 USA</p>
                 </div>
 
-                <div className="w-[710px] h-[312px] flex gap-20">
+                <div className="w-[710px] h-[312px] flex gap-20  xsm:w-screen xsm:h-auto">
                     <ul className="w-[68px] h-[312px] flex flex-col justify-evenly font-medium">
                         <li className="text-[#9F9F9F]">Links</li>
                         <li>Home</li>
