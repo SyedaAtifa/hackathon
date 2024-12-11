@@ -10,7 +10,7 @@ function Funiro() {
                 <p className="w-[360px] font-medium text-[#616161]">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
                 <button className='w-[176px] h-12 text-white font-semibold  bg-[#B88E2F]'>Explore More</button>
             </div>
-            <Image src={"/images/room1.svg"} alt='room' width={404} height={582} />
+            <Image className="xsm:hidden" src={"/images/room1.svg"} alt='room' width={404} height={582} />
             <div className="flex flex-col gap-14 ml-6 xsm:hidden relative">
                 <Image src={"/images/room2.svg"} alt='room' width={372} height={486} />
                 <Image src={"/images/Indicator.svg"} alt='imdicator' width={120} height={27} />
