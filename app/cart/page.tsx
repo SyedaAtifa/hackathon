@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import Foot from '@/components/Foot'
 import Footer from '@/components/Footer'
+import Link from 'next/link'
 
 function page() {
   return (
