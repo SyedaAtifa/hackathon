@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Foot() {
   return (
-    <div className="w-full h-[270px] bg-[#FAF3EA] my-12 flex items-center justify-center font-poppins xsm:flex-col xsm:h-[700px]">
+    <div className="w-full h-[270px] bg-[#FAF3EA] my-12 flex items-center justify-evenly font-poppins xsm:flex-col xsm:h-[700px]">
         <div className="w-[337px] h-[70px] flex xsm:flex-col xsm:items-center">
             <div>
                 <Image src={"/images/trophy.svg"} alt='trophy' width={60} height={60} />
