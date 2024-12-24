@@ -16,7 +16,7 @@ function page() {
             Cart</p>
         </div>
 
-        <div className="w-full h-[525px] mt-16 flex items-center justify-center">
+        <div className="w-full h-[525px] mt-12 flex justify-center gap-20">
             <div className="w-[817px] h-[215px]">
                 <div className="bg-[#F9F1E7] h-[55px] flex items-center">
                     <ul className="w-[700px] flex items-center justify-between font-medium">
