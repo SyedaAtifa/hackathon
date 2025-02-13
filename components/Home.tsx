@@ -23,7 +23,7 @@ function Home() {
                 </div>
 
                 <div>
-                    <Image src={"/images/Bedroom.svg"} alt='brdroom' width={381} height={480} />
+                    <Image src={"/images/bedroomimg.svg"} alt='bedroom' width={381} height={480} />
                     <h6  className="text-2xl font-medium text-center mt-2">Bedroom</h6>
                 </div>
             </div>
