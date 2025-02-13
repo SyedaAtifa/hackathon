@@ -1,8 +1,12 @@
+"use client";
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 
 function Header() {
+  const [open, setOpen] = useState(false);
+  
   return (
     <div className="h-[100px] w-screen flex items-center justify-center">
         <header className="h-10 w-[1286px] flex justify-between">
@@ -39,6 +43,51 @@ function Header() {
                 <Link href={"/cart"}>
                   <Image src={"/images/cart.svg"} alt='cart' width={28} height={28} />
                 </Link>
+              <div className="hidden xsm:block">
+            <button
+              onClick={() => setOpen(!open)}
+              className="p-2 rounded-md focus:outline-none"
+            >
+              <Image
+                src={"/images/Column.svg"}
+                alt="column"
+                width={56}
+                height={56}
+              />
+
+            </button>
+
+            <div
+              className={`fixed top-20 z-50 right-0 h-60 w-64 bg-white shadow-lg transform transition-transform ${open ? "translate-x-0" : "translate-x-full"
+                }`}
+            >
+              <div className="p-4 text-lg font-bold">Furniro</div>
+              <ul className="flex flex-col space-y-4 p-4">
+                <Link href={"/shop"}>
+                  <li>
+                    Shop
+                  </li>
+                </Link>
+                <Link href={"/blog"}>
+                  <li>
+                    Blog
+                  </li>
+                </Link>
+                <Link href={"/contact"}>
+                  <li>
+                    Contact
+                  </li>
+                </Link>
+              </ul>
+            </div>
+
+            {open && (
+              <div
+                className="fixed"
+                onClick={() => setOpen(false)}
+              ></div>
+            )}
+          </div>
             </div>
         </header>
     </div>
