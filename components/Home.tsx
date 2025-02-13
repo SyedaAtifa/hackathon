@@ -7,7 +7,7 @@ function Home() {
         {/* range */}
         <div className="w-[1183px] h-[685px] xsm:w-auto">
             <div className="h-[76px] flex flex-col items-center justify-center gap-3">
-                <h4 className="w-screen text-3xl font-bold text-[#333333]">Browse The Range</h4>
+                <h4 className="text-3xl font-bold text-[#333333]">Browse The Range</h4>
                 <p className="text-xl xsm:text-[13px] text-[#666666]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             {/* items */}
