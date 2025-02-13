@@ -11,7 +11,11 @@ function Header() {
                 <h1 className="text-4xl font-bold font-Montserrat">furniro</h1>
             </div>
             <ul className="relative h-[21px] w-[430px] flex justify-between pt-3 font-medium font-poppins xsm:hidden">
-                <li>Home</li>
+                <Link href={"/Home"}>
+                  <li>
+                    Home
+                  </li>
+                </Link>
                 <Link href={"/shop"}>
                   <li>
                     Shop
