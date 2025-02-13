@@ -22,7 +22,11 @@ function Header() {
                     Blog
                   </li>
                 </Link>
-                <li>Contact</li>
+                <Link href={"/contact"}>
+                  <li>
+                    Contact
+                  </li>
+                </Link>
             </ul>
             <div className="w-[200px] flex justify-between xsm:justify-evenly">
                 <Image className="xsm:hidden" src={"/images/account.svg"} alt='account' width={28} height={28} />
