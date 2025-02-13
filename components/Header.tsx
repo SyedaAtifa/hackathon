@@ -38,8 +38,8 @@ function Header() {
             </ul>
             <div className="w-[200px] flex justify-between xsm:justify-evenly">
                 <Image className="xsm:hidden" src={"/images/account.svg"} alt='account' width={28} height={28} />
-                <Image src={"/images/search.svg"} alt='search' width={28} height={28} />
-                <Image src={"/images/wishlist.svg"} alt='wishlist' width={28} height={28} />
+                <Image className="xsm:hidden" src={"/images/search.svg"} alt='search' width={28} height={28} />
+                <Image className="xsm:hidden" src={"/images/wishlist.svg"} alt='wishlist' width={28} height={28} />
                 <Link href={"/cart"}>
                   <Image src={"/images/cart.svg"} alt='cart' width={28} height={28} />
                 </Link>
