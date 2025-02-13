@@ -12,8 +12,16 @@ function Header() {
             </div>
             <ul className="relative h-[21px] w-[430px] flex justify-between pt-3 font-medium font-poppins xsm:hidden">
                 <li>Home</li>
-                <Link href={"/shop"}><li>Shop</li></Link>
-                <li>Blog</li>
+                <Link href={"/shop"}>
+                  <li>
+                    Shop
+                  </li>
+                </Link>
+                <Link href={"/blog"}>
+                  <li>
+                    Blog
+                  </li>
+                </Link>
                 <li>Contact</li>
             </ul>
             <div className="w-[200px] flex justify-between xsm:justify-evenly">
