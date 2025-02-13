@@ -4,9 +4,6 @@ import Main from '@/components/Main'
 import Home from '@/components/Home'
 import Funiro from '@/components/Funiro'
 import Footer from '@/components/Footer'
-import SOFA from '@/components/sofa/page'
-
-
 
 function page() {
   return (
@@ -14,7 +11,6 @@ function page() {
       <Header />
       <Main />
       <Home />
-      <SOFA />
       <Funiro />
       <Footer />
     </div>
