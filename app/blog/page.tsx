@@ -15,9 +15,9 @@ const page = () => {
                     Blog</p>
             </div>
 
-            <div className="w-screen h-auto m-24 font-poppins flex gap-20">
+            <div className="w-screen h-auto m-24 font-poppins flex gap-20 xsm:flex-col">
                 {/* blog1 */}
-                <div className="w-[820px] h-auto">
+                <div className="w-[820px] h-auto xsm:w-[320px]">
                     <div className="w-full h-[800px]">
                         <Image src={"images/blog1.svg"}
                             alt='blog'
@@ -71,7 +71,7 @@ const page = () => {
                     {/* blog1 */}
 
                     {/* blog2 */}
-                    <div className="w-[820px] h-auto">
+                    <div className="w-[820px] h-auto xsm:w-[320px]">
                         <div className="w-full h-[800px]">
                             <Image src={"images/blog2.svg"}
                                 alt='blog'
@@ -126,7 +126,7 @@ const page = () => {
                     {/* blog2 */}
 
                     {/* blog3 */}
-                    <div className="w-[820px] h-auto">
+                    <div className="w-[820px] h-auto xsm:w-[320px]">
                         <div className="w-full h-[800px]">
                             <Image src={"images/blog3.svg"}
                                 alt='blog'
