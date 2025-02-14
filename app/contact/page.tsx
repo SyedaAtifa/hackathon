@@ -17,7 +17,7 @@ const page = () => {
 
             <div className="w-screen h-[300px] flex flex-col gap-4 items-center justify-center">
                 <h6 className="font-semibold text-4xl">Get In Touch With Us</h6>
-                <p className="w-[644px] text-[#9F9F9F] text-center">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+                <p className="w-[644px] text-[#9F9F9F] text-center xsm:w-[320px]">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
             </div>
 
             <div className="w-screen h-auto flex items-centr justify-center gap-16 xsm:flex-col">
