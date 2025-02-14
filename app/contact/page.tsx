@@ -20,7 +20,7 @@ const page = () => {
                 <p className="w-[644px] text-[#9F9F9F] text-center">For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
             </div>
 
-            <div className="w-screen h-auto flex items-centr justify-center gap-16">
+            <div className="w-screen h-auto flex items-centr justify-center gap-16 xsm:flex-col">
                 <div className="w-[340px] h-[540px] flex flex-col gap-12 font-poppins">
                     <div className="flex flex-col gap-2">
                         <Image
@@ -63,25 +63,25 @@ const page = () => {
                         <label>Your name</label><br />
                         <input 
                         placeholder='Abc'
-                        className="w-[530px] h-[75px] border border-[#9F9F9F] rounded-[10px]"/>
+                        className="w-[530px] xsm:w-[320px] h-[75px] border border-[#9F9F9F] rounded-[10px]"/>
                     </div>
                     <div>
                         <label>Email address</label>
                         <input
                         placeholder='Abc@def.com' 
-                        className="w-full h-[75px] border border-[#9F9F9F] rounded-[10px]" />
+                        className="w-full  xsm:w-[320px] h-[75px] border border-[#9F9F9F] rounded-[10px]" />
                     </div>
                     <div>
                         <label>Subject</label>
                         <input
                         placeholder='This is optional' 
-                        className="w-full h-[75px] border border-[#9F9F9F] rounded-[10px]"/>
+                        className="w-full  xsm:w-[320px] h-[75px] border border-[#9F9F9F] rounded-[10px]"/>
                     </div>
                     <div className="">
                         <label>Message</label>
                         <input 
                         placeholder='Hi I did like to ask about'
-                        className="w-full h-[120px] border border-[#9F9F9F] rounded-[10px]"/>
+                        className="w-full  xsm:w-[320px] h-[120px] border border-[#9F9F9F] rounded-[10px]"/>
                     </div>
                     <button className="w-[240px] h-14 flex items-center justify-center bg-[#B88E2F] border rounded-md text-white">Submit</button>
                 </div>
