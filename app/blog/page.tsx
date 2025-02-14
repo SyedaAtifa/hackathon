@@ -15,7 +15,7 @@ const page = () => {
                     Blog</p>
             </div>
 
-            <div className="w-screen h-auto m-24 font-poppins flex gap-20 xsm:flex-col">
+            <div className="w-screen h-auto m-24 font-poppins flex gap-20 xsm:flex-col xsm:m-0">
                 {/* blog1 */}
                 <div className="w-[820px] h-auto xsm:w-[320px]">
                     <div className="w-full h-[800px]">
@@ -181,7 +181,7 @@ const page = () => {
                     {/* blog3 */}
                 </div>
                 <div className="">
-                    <div className="w-[400px] h-[540px]">
+                    <div className="w-[400px] xsm:w-[320px] h-[540px]">
                         <button className="w-[300px] h-14 border rounded-lg border-gray-600">
                             <input 
                             />
